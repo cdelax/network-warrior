@@ -1,7 +1,7 @@
 # FHRP
 ## Network Diagram
 
-![[FHRP/attachments/diagram.png]]
+![](attachments/diagram.png)
 
 ## Objective
 
