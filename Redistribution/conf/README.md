@@ -114,7 +114,7 @@ network [IP address] [Wildcard Mask]
 no auto summary #only if needed
 ```
 
-* **EIGRP Redistribution Example
+* **EIGRP Redistribution Example**
 ```shell
 router eigrp 101
 redistribute eigrp 123
@@ -122,7 +122,7 @@ redistribute ospf 100 metric 1000 100 255 1 1500
 network 101.4.101.0 0.0.0.3
 ```
 
-* **OSPF Redistribution Example
+* **OSPF Redistribution Example**
 ```
 router ospf 100
 network 10.10.4.0 0.0.0.15 area 0
