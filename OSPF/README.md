@@ -1,7 +1,7 @@
 # OSPF
 
 ## Network Diagram
-![](attachments/Captura de pantalla 2025-02-25 203819.png)
+![](attachments/diagram.png)
 >The topology for this lab. There is area 0 directly connected to area 23, area 25 and area 51. Area 51 is a totally stub area. Area 23 has another area connected away from area 0, working as a linker.
 ## Objective
 
