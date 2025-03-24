@@ -33,7 +33,7 @@ This document details the assigned IP addresses, subnet masks, OSPF areas, and R
 
 In order to configure the routers the following commands must be used:
 
-* **Routers IP
+* **Routers IP**
 ```shell
 conf t 
 int [Interface]
@@ -64,26 +64,26 @@ ip ospf priority [0-255]
 >Default priority (0-255) is 1; highest priority wins and 0 cannot be elected.  
 >A designated router (DR) is responsible for establishing and maintaining adjacencies. The backup designated router (BDR) is the backup router for when the DR fails, it assumes the job of DR.
 
-* **Config OSPF area
+* **Config OSPF area**
 ```shell
 int [interface]
 ip ospf 100 area [Area number]
 ```
 
-* **Config OSPF Area 0
+* **Config OSPF Area 0**
 ```shell
 router ospf 100
 redistribute static subnets
 network 10.10.1.0 0.0.0.15 area 0
 ```
 
-* **Config Loopback
+* **Config Loopback**
 ```shell
 interface loopback 0
 ip add [IP/RID] [MASK]
 ```
 
-* **Config RID
+* **Config RID**
 ```shell
 router-id [RID]
 ```
