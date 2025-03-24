@@ -30,6 +30,7 @@ This document details the assigned IP addresses, subnet masks, OSPF areas, and R
 | PC2    | e0        | 33.33.4.1   | 255.255.255.192 | /26  | 33.33.1.62  | NA        | NA       |
 | PC3    | e0        | 25.25.4.1   | 255.255.255.224 | /27  | 25.25.1.30  | NA        | NA       |
 | PC4    | e0        | 51.51.4.1   | 255.255.255.128 | /25  | 51.51.1.126 | NA        | NA       |
+
 In order to configure the routers the following commands must be used:
 
 * **Routers IP
